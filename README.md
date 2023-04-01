@@ -1,7 +1,7 @@
 # Link Hub :link:
 
 <p align="center">
-  <img src="LinkHub.png" alt="Imagem da página inicial">
+  <img src="" alt="Imagem da página inicial">
 </p>
 
 
