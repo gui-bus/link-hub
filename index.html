@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/assets/icons/link-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+                
+    <title>Link Hub</title>
+</head>
+<body>
+    <main class="main-content">
+        <header class="header-menu">
+            
+
+            <div class="switch">
+                <input type="checkbox" id="switch-1">
+                <label for="switch-1"></label>
+              </div>
+              
+            <img class="header-menu__profile" src="./src/assets/images/profile.png" alt="Foto de perfil">
+
+            <h1 class="header-menu__name">Guilherme Bustamante</h1>
+
+            <span class="header-menu__pro">Front-End Developer</span>
+        </header>
+
+        <section class="links">
+            <a href="#" id="open-modal">
+                <i class="fas fa-user"></i>
+                Sobre mim
+            </a>
+            <a href="https://github.com/gui-bus" target="_blank">
+                <i class="fab fa-github"></i>
+                Github
+            </a>
+            <a href="https://www.linkedin.com/in/gui-bus/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+                Linkedin
+            </a>
+            <a href="https://instagram.com/guibus_dev/" target="_blank">
+                <i class="fab fa-instagram"></i>
+                Instagram
+            </a>
+            <a href="https://twitter.com/guibus_dev" target="_blank">
+                <i class="fab fa-twitter"></i>
+                Twitter
+            </a>
+            <a href="mailto:guibus.dev@gmail.com" target="_blank">
+                <i class="fas fa-envelope" id="envelope"></i>
+                E-mail
+            </a>
+            
+            <div class="projects">
+
+                <hr>
+                <p>Principais Projetos</p>
+                
+                <a href="https://gui-bus.github.io/james-webb/index.html" target="_blank">
+                    <i class="fas fa-rocket"></i>
+                    James Webb
+                </a>
+                <a href="https://gui-bus.github.io/snapweather/" target="_blank">
+                    <i class="fas fa-cloud-sun"></i>
+                    Snap Weather
+                </a>
+                <a href="https://gui-bus.github.io/resident-evil-4-remake/" target="_blank">
+                    <i class="fas fa-skull"></i>
+                    Resident Evil 4 Remake
+                </a>
+                
+
+
+            </div>
+
+        </section>
+
+        <dialog id="modal">
+          <h2>Sobre mim</h2>
+          <p>
+            Sou um entusiasta de tecnologia e vi na área da programação o caminho que desejo seguir. 🎯
+          </p>
+          <p>
+            No momento sou estudante de Front End e estou motivado a aprender o máximo possivel sobre a area, dessa forma adquirindo o conhecimento e as habilidades necessárias para alcançar o topo.
+          </p> 
+          <p>
+            Tenho como objetivo me tornar um desenvolvedor FullStack altamente qualificado! 🚀
+          </p>
+            
+          <h3>
+            Tecnologias que utilizo
+          </h3>
+          <div class="tec_icons">
+            <img alt="HTML"src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+            <img alt="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+            <img alt="Js"src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+          </div>
+            <button id="close-modal">
+                <i class="fas fa-times"></i>
+            </button>
+        </dialog>
+    
+
+        <footer class="footer-menu">
+            <p>
+                Alguma dúvida ou projeto em mente?
+            </p>
+            <span>
+                Me mande uma mensagem!
+            </span>
+            <p>
+                <i class="fas fa-paper-plane"></i>
+            </p>
+        </div>
+        </footer>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
